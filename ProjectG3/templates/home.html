@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Sensei</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        h1 {
+            color: #5C6AC4;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .welcome-message {
+            font-size: 24px;
+            color: #555;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .user-info {
+            font-size: 20px;
+            margin-top: 20px;
+            color: #007bff;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        .button-container {
+            margin-top: 30px;
+        }
+
+        .button {
+            padding: 12px 30px;
+            background-color: #5C6AC4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #4a5a99;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Welcome to the “SQL Sensei” - An Interactive SQL Training System!</h1>
+    <div class="welcome-message">
+        <p>We are thrilled to have you onboard. Get ready to level up your SQL skills!</p>
+    </div>
+    <div class="user-info">
+        <p>The logged-in user is <strong>{{ user_name }}</strong></p>
+    </div>
+
+    <div class="button-container">
+        <a href="/dashboard" class="button">Go to Dashboard</a>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2025 SQL Sensei - All rights reserved</p>
+</div>
+</body>
+</html>
